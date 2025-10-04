@@ -158,9 +158,11 @@ button {
   margin: -1px;
   border: 0;
   padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-  white-space: nowrap;
 }
 .values-section {
   padding: 120px 0;
@@ -272,6 +274,7 @@ button {
 /* footer */
 .footer-logo {
   margin-bottom: 16px;
+  display: inline-block;
 }
 .footer-logo .logo-part {
   color: #f4f4fd;
