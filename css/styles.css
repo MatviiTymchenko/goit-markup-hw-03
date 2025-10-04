@@ -170,10 +170,9 @@ button {
 .values-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
-.values-item {
-  display: flex;
+.values-items {
+  width: calc((100% - 72px) / 4);
 }
 .values-info {
   font-weight: 500;
