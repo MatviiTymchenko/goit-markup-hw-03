@@ -125,7 +125,6 @@ button {
   margin-right: auto;
   max-width: 496px;
   margin-bottom: 46px;
-  margin-top: 188px;
   color: #fff;
 }
 .order-button {
@@ -136,7 +135,6 @@ button {
   letter-spacing: 0.04em;
   padding-block: 16px;
   padding-inline: 32px;
-  margin-bottom: 188px;
   gap: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -245,6 +243,7 @@ button {
   gap: 48px 24px;
 }
 .portfolio-items {
+  width: calc((100% - 72px) / 3);
 }
 
 .portfolio-wrapper {
